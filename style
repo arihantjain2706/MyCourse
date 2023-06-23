@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Great+Vibes&family=Nunito:wght@300&display=swap');
+*
+{
+  padding: 0;
+  margin: 0;
+}
+nav
+{
+  /* background-color: red; */
+}
+ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li
+{
+  list-style: none;
+  padding: 2vh 4vw;
+}
+nav ul li p
+{
+  color: rgb(255, 123, 0);
+  font-family: 'Acme', sans-serif;
+  font-size: 4vh;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color: white;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.75vh;
+}
+nav ul li a:hover
+{
+  color: rgb(241, 157, 0);
+  font-size: 2.9vh;
+}
+nav ul li div input
+{
+  background-color: rgba(255, 0, 0, 0);
+  border: 0.7px solid rgb(255, 123, 0);
+  border-radius: 5px;
+  padding: 4.8px;
+  color: white;
+  
+}
+.searchbar
+{
+  display: flex;
+}
+nav ul li div button
+{
+  padding: 4.8px;
+  width: 5vw;
+  border-radius: 5px;
+  background-color: rgb(255, 123, 0);
+  border: 0.7px solid rgb(255, 123, 0);
+  color: white;
+}
+body
+{
+  background-image: url(https://wallpapercave.com/wp/wp2915539.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main
+{
+  height: 87vh;
+}
+.mainhead
+{
+  width: 38vw;
+  position: absolute;
+  top: 27vh;
+  left: 7vw;
+}
+.lone
+{
+  color: white;
+  font-size: 6.5vh;
+  font-weight: 600;
+}
+.ltwo
+{
+  color: rgb(255, 123, 0);
+  font-size: 6.5vh;
+  font-weight: 600;
+}
+.para
+{
+  color: rgb(214, 209, 209);
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+.buttwo
+{
+  background-color: rgb(255, 123, 0);
+  color: black;
+  font-size: 14px;
+  padding: 5px;
+  width: 130px;
+  border: 1px solid rgb(255, 123, 0);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.loginform
+{
+  background-color: rgb(10, 10, 10);
+  border: 2px solid rgb(255, 123, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 16vw;
+  height: 36vh;
+  position: absolute;
+  right: 20vw;
+  top: 27vh;
+}
+.formhead
+{
+  color: orange;
+  text-decoration: underline solid white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+.logininput
+{
+  margin: 4px auto;
+  font-size: 14px;
+  height: 18px;
+  width: 14vw;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 123, 0, 0);
+  border: 0.2px solid rgba(255, 123, 0);
+  text-align: center;
+}
+.butthree
+{
+  background-color: rgb(255, 123, 0);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  width: 5vw;
+  border: 1px solid rgb(255, 123, 0);
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 4px;
+}
+.loginpara
+{
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+.loginptwo
+{
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+.signup
+{
+  text-decoration: none;
+  color: orange;
+  font-family: 'Nunito', sans-serif;
+}
+.foot
+{
+  color: rgb(187, 187, 187);
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.2vh;
+}
